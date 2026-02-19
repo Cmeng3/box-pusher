@@ -1,0 +1,52 @@
+[gd_scene load_steps=6 format=3 uid="uid://bif5m3vxqba7h"]
+
+[ext_resource type="FontFile" uid="uid://deb22oqiv2ahd" path="res://assets/Kenney Future.ttf" id="1_2yi6y"]
+[ext_resource type="Script" uid="uid://dk0xia8u53gbx" path="res://scenes/win_screen/win_screen.gd" id="1_misvs"]
+[ext_resource type="Texture2D" uid="uid://cwyn8olx6clae" path="res://scenes/win_screen/victory.png" id="2_8vb36"]
+[ext_resource type="AudioStream" uid="uid://dhnyhi8vsclej" path="res://scenes/win_screen/victory.wav" id="3_1d1ta"]
+
+[sub_resource type="Theme" id="Theme_1d1ta"]
+default_font = ExtResource("1_2yi6y")
+default_font_size = 60
+
+[node name="WinScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_misvs")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_8vb36")
+expand_mode = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Spacer1" type="Control" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 400)
+layout_mode = 2
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = SubResource("Theme_1d1ta")
+text = "Next level"
+
+[node name="VictorySound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_1d1ta")
+autoplay = true
