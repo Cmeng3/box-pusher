@@ -4,9 +4,9 @@
 [ext_resource type="Script" uid="uid://c5kdgw8kaojwb" path="res://scenes/levels/components/grid_draw_component.gd" id="2_0hhq0"]
 [ext_resource type="PackedScene" uid="uid://b0b3jtccilhxg" path="res://scenes/player/player.tscn" id="3_2xgph"]
 
-[node name="LevelThree" node_paths=PackedStringArray("player", "grid_draw") instance=ExtResource("1_wbucq")]
-config_path = "res://scenes/levels/level_three/config.json"
-level_number = 3
+[node name="LevelFour" node_paths=PackedStringArray("player", "grid_draw") instance=ExtResource("1_wbucq")]
+config_path = "res://scenes/levels/level_four/config.json"
+level_number = 4
 player = NodePath("Player")
 grid_draw = NodePath("GridDraw")
 

@@ -10,8 +10,9 @@ func _ready() -> void:
 	const LEVEL_ONE = preload("res://scenes/levels/level_one/level_one.tscn")
 	const LEVEL_TWO = preload("res://scenes/levels/level_two/level_two.tscn")
 	const LEVEL_THREE = preload("res://scenes/levels/level_three/level_three.tscn")
-
-	levels = [LEVEL_ONE, LEVEL_TWO, LEVEL_THREE]
+	const LEVEL_FOUR = preload("res://scenes/levels/level_four/level_four.tscn")
+	
+	levels = [LEVEL_ONE, LEVEL_TWO, LEVEL_THREE, LEVEL_FOUR]
 	
 	var spacer1 = Control.new()
 	spacer1.custom_minimum_size = Vector2(0, 100) # 40px vertical space
@@ -27,8 +28,8 @@ func _ready() -> void:
 		button.text = "Level %d" % i
 
 
-		if i > Progress.unlocked_level:
-			button.disabled = true
+		#if i > Progress.unlocked_level:
+			#button.disabled = true
 
 		button.pressed.connect(change_scene.bind(level))
 		v_box_container.add_child(button)
