@@ -15,7 +15,7 @@ func _ready() -> void:
 	levels = [LEVEL_ONE, LEVEL_TWO, LEVEL_THREE, LEVEL_FOUR]
 	
 	var spacer1 = Control.new()
-	spacer1.custom_minimum_size = Vector2(0, 100) # 40px vertical space
+	spacer1.custom_minimum_size = Vector2(0, 150) # 40px vertical space
 	v_box_container.add_child(spacer1)
 	
 	var i: int = 0
@@ -28,8 +28,8 @@ func _ready() -> void:
 		button.text = "Level %d" % i
 
 
-		#if i > Progress.unlocked_level:
-			#button.disabled = true
+		if i > Progress.unlocked_level:
+			button.disabled = true
 
 		button.pressed.connect(change_scene.bind(level))
 		v_box_container.add_child(button)
