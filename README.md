@@ -26,6 +26,9 @@ here is some the picture for the game map and also function
 # - ESC click and we got 3 buttons
 <img width="377" height="404" alt="image" src="https://github.com/user-attachments/assets/d3cc918e-b049-4ba5-9075-c9eec57c1e3c" />
 
+## Itch.io published
+
+https://cmeng3.itch.io/box-pusher
 
 ## Gameplay Video
 
