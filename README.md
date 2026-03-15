@@ -26,14 +26,31 @@ here is some the picture for the game map and also function
 # - ESC click and we got 3 buttons
 <img width="377" height="404" alt="image" src="https://github.com/user-attachments/assets/d3cc918e-b049-4ba5-9075-c9eec57c1e3c" />
 
+## Bug Fixing and Beta-Testing Feedback
+
+so for the bug fixing and the beta testing feedback I have optimize the game size that the instructor told me and the beta testing they have told me to add more level and I have add level 4 for them to play and it is harder and more difficult.
+
+## Game Completion Elements
+
+So for the game completion I have add the target floors for the block to push over and when all of them is completed so it will be victory.
+
+##  Final Demonstration Video
+
+Watch here: https://youtu.be/62_Va_pF1F4
+
+## Asset Credits
+
+asset name : Sokoban <br>
+author or creator: Kenney <br>
+source link : https://www.kenney.nl/assets/sokoban
+
 ## Itch.io published
 
 https://cmeng3.itch.io/box-pusher
 
-## Gameplay Video
-
-Watch here: [https://youtu.be/gmo2E8bOABY](https://youtu.be/gmo2E8bOABY)
-
 # AI Usage
 
-So for our AI usage that I had used in this project is for generate me some of the script and image that is use in the game also I have use the AI for the organize the scenes and help me to explain how to make my game or my project to be clean and professional.
+So for our AI usage that I had used in this project is for generate me some of the script and image that is use in the game also I have use the AI for the organize the scenes and help me to explain how to make my game or my project to be clean and professional. And I also have use the Ai for helping me to optimize the game because I can't do it by my own I need the Ai to help me with this. <br>
+
+Here is the AI link : https://chatgpt.com/share/69b6e0db-0464-8002-b5b0-1cd4b4ddaeaa
+
